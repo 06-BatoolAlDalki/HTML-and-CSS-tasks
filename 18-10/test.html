@@ -14,112 +14,155 @@
 
 
     <form action="batool.php" method="get">
+
         <fieldset>
-            <legend>RegForm</legend>
-            <label>Name</label>
-            <input type="text" name="user" value="Batool" required placeholder="Enter  Name here " />
+            <legend>Account Information</legend>
+            <b><label>Login Name*</label></b>
+            <input type="text" name="user" />
 
             <br>
             <br>
 
-            <div>
 
-                <label>Password</label>
-                <input type="password" name="pass" required placeholder="Enter PAssword here " />
+            <label>Password</label>
+            <input type="password*" name="pass" />
 
-                <br>
-                <br>
+            <br>
+            <br>
 
+            <label>Confirm Password *</label>
+            <input type="password*" name="pass" />
 
+            <br>
+            <br>
 
-                <label>Email</label>
-                <input type="email" name="emaila" placeholder="Enter Email here " />
+            <label>Confirm Email*</label>
+            <input type="email" name="emaila" />
 
-                <br>
-                <br>
+            <br>
+            <br>
+        </fieldset>
+        <!-- first one -->
+        <fieldset>
+            <legend align="center">Contact Information</legend>
+            <label>First Name*</label>
+            <input type="text" name="user" />
 
+            <br>
+            <br>
+            <label>Last Name*</label>
+            <input type="text" name="user" />
 
+            <br>
+            <br>
 
-                <label>Date</label>
-                <input type="date" name="emaila" />
+            <label>Address1* </label>
+            <input type="text" name="pass" />
 
-                <br>
-                <br>
+            <br>
+            <br>
+            <label>Address 2* </label>
+            <input type="text" name="pass" />
 
-
-                <label>PhoneNO.</label>
-                <input type="number" name="phone number" />
-
-                <br>
-                <br>
-
-
-                <label>SelectFile</label>
-                <input type="file" name="phone number" />
-
-                <br>
-                <br>
-
-
-
-                <label>Choose your favourite sports : </label>
-
-                <input type="checkbox" name="box" value="batool1" checked />
-                <label>football</label>
-
-                <input type="checkbox" name="box" value="batool2" />
-                <label>Tennis</label>
-
-                <input type="checkbox" name="box" value="3" />
-                <label>Basketball</label>
-                <br />
-                <br />
+            <br>
+            <br>
 
 
-                <label> Gender</label>
-                <input type="radio" name="box" value="Username" checked />
-                <label>Male</label>
-
-                <input type="radio" name="box" value="Username" />
-                <label>Female</label>
-
-                <br />
-                <br />
-
-                <!-- when we press at submit button , value will sent to server to know which  radio we choose -->
-                <label>Language </label>
-
-                <input type="checkbox" name="box" value="q2" checked />
-                <label>Hindi</label>
-
-                <input type="checkbox" name="box" value="q1" />
-                <label>English</label>
 
 
-                <br />
-                <br />
+            <label>City *</label>
+            <input type="text" name="pass" />
 
-                <label>Courses</label>
-                <select name="choosea">
-                    <option value="1">CS</option>
-                    <option value="2">C++</option>
-                    <option value="3">C#</option>
-                </select>
-                <br />
-                <br />
+            <br>
+            <br>
 
 
-                <label>Comment</label>
-                <textarea name="textarea" rows="10" cols="10"></textarea>
-                <br />
+            <label>State or Province*</label>
+            <select name="choosea" value="Select..">
+                <option value="1">CS</option>
+                <option value="2">C++</option>
+                <option value="3">C#</option>
+            </select>
+            <br />
+            <br />
 
 
-                <br />
-                <input type="submit" value="RegisterNow" />
-                <input type="reset" value="Refresh" />
+            <label>Zip *</label>
+            <input type="text" name="pass" />
+
+            <br>
+            <br>
+
+            <label>Country *</label>
+            <input type="text" name="pass" />
+
+            <br>
+            <br>
+
+            <label> Gender</label>
+            <input type="radio" name="box" value="Username" />
+            <label>Male</label>
+
+            <input type="radio" name="box" value="Username" />
+            <label>Female</label>
+
+            <br />
+            <br />
+        </fieldset>
+
+
+
+        <fieldset>
+            <legend> Misc.Information</legend>
+
+            <label>Annual Household Income*</label>
+            <select name="choosea">
+                <option value="1">c</option>
+                <option value="2">Caa</option>
+                <option value="3">Czzz</option>
+            </select>
+            <br />
+            <br />
+
+
+
+            <label>Interests </label>
+
+            <input type="checkbox" name="box" value="batool1" />
+            <label>Shooping/fashion</label>
+
+            <input type="checkbox" name="box" value="batool2" />
+            <label>Sports</label>
+
+            <input type="checkbox" name="box" value="3" />
+            <label>Travel</label>
+            <br />
+            <br />
+
+
+            <label>Eye color </label>
+
+            <input type="checkbox" name="box" value="batool1" />
+            <label>red</label>
+
+            <input type="checkbox" name="box" value="batool2" />
+            <label>Green</label>
+
+            <input type="checkbox" name="box" value="3" />
+            <label>Brown</label>
+
+            <input type="checkbox" name="box" value="3" />
+            <label>Blue Gold</label>
+            <br />
+            <br />
+
 
         </fieldset>
-        </div>
+
+        <input type="submit" value="Submit" />
+        <input type="reset" value="Reset" />
+
+
 
     </form>
 
