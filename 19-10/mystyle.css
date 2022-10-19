@@ -1,0 +1,21 @@
+.blue {
+
+    color: blue;
+}
+
+.background {
+
+    background-color: rgb(154, 233, 232);
+    color: blue;
+}
+
+.grey {
+
+    background-color: gray;
+}
+
+
+span {
+
+    color: rgb(122, 26, 225)
+}
