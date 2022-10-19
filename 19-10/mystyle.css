@@ -11,11 +11,24 @@
 
 .grey {
 
-    background-color: gray;
+    background-color: rgb(216, 198, 198);
 }
 
 
 span {
 
     color: rgb(122, 26, 225)
+}
+
+
+.padding {
+
+    margin-left: 103px;
+}
+
+.pa {
+
+
+
+    margin-left: 100px;
 }
