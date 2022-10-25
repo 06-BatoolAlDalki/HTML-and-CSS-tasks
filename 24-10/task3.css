@@ -1,0 +1,43 @@
+/* to diplay task on the screen of laptop (default) */
+
+.container {
+
+    display: flex;
+    /* flex-direction: row;  (by default)*/
+}
+
+.box {
+
+    width: 100%;
+    height: 440px;
+    color: white;
+    text-align: center;
+    padding-top: 300px;
+    font-size: 50px;
+}
+
+
+
+
+/* <!--to display the task on the mobile screen , it show col under col--> */
+
+@media only screen and (min-width: 0px) and (max-width: 480px) {
+
+
+    .container {
+
+        /* display: flex;
+        flex-direction: column;
+         
+
+
+        or  */
+        display: grid;
+        grid-template-columns: auto;
+
+        /* grid with one col */
+    }
+
+
+
+}

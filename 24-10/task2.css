@@ -1,0 +1,57 @@
+/* to display the assiment as is on laptop (GO to main container && .box ) */
+
+.container {
+
+    height: 900px;
+    border: 3px solid orange;
+    display: grid;
+    /* 2-dimention ,x-axis && y-axis */
+    grid-template-columns: auto auto auto auto;
+    /* to determine the number of contumn */
+
+}
+
+.box {
+    width: 100%;
+    height: 400px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 50px;
+
+}
+
+
+
+/* if you display webpage on the mobile , you should change display to flex , to control of direction of flex ,,,,,,,go to media (0,480) */
+@media only screen and (min-width: 0px) and (max-width: 480px) {
+
+    .container {
+
+
+        display: grid;
+
+        grid-template-columns: auto;
+        /* to determine the direction of box , (coloumn),to fit mobile screen    (grid with one col) */
+
+    }
+
+}
+
+/* if you display webpage on the tablet , you will see 2 or 3 cols , so you need to change display to main container to gred with 2 cols  */
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+
+    .container {
+
+
+        display: grid;
+        /* 2-dimention ,x-axis && y-axis */
+        grid-template-columns: auto auto;
+        /* to determine the number of contumn */
+
+    }
+
+
+
+}

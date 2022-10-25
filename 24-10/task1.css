@@ -1,0 +1,36 @@
+.container {
+    border: 3px solid orange;
+    display: flex;
+}
+
+.box {
+    width: 100%;
+    height: 700px;
+    color: white;
+    font-size: xx-large;
+    text-align: center;
+    padding-top: 350px;
+
+}
+
+@media only screen and (min-width: 0px) and (max-width: 480px) {
+    .container {
+
+        flex-direction: column;
+        /* to make website fit on mobilephone , show boxes under each other */
+    }
+
+
+
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    .container {
+
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+
+
+}
