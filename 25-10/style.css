@@ -1,0 +1,41 @@
+@media only screen and (min-width: 0px)and (max-width: 480px) {
+    .div1 {
+        width: 200px;
+        height: 200px;
+        display: inline-block;
+        
+        margin: 140px 140px;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    .div1 {
+        width: 200px;
+        height: 200px;
+        display: inline-block;
+
+
+        margin: 86px;
+
+    }
+}
+
+
+
+@media only screen and (min-width: 769px)and (max-width: 1279px) {
+    .div1 {
+        width: 200px;
+        height: 200px;
+        display: inline-block;
+
+        margin: 23px;
+
+    }
+}
+
+
+.main {
+
+
+    /* height: 2000px; */
+}
